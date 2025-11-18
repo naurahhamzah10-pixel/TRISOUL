@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pendaftaran Dojang Taekwondo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="overlay">
+<div class="container">
+
+    <img src="logo.png" class="logo" alt="Logo Dojang">
+
+    <h1>Pendaftaran Anggota Baru Dojang Trisoul</h1>
+
+    <form id="daftarForm">
+
+        <label>Nama Lengkap</label>
+        <input type="text" id="nama" required>
+
+        <label>Alamat</label>
+        <textarea id="alamat" rows="3" required></textarea>
+
+        <label>Umur</label>
+        <input type="number" id="umur" required>
+
+        <label>No HP OrangTua(wali)</label>
+        <input type="text" id="nohp1" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>No HP / WA</label>
+        <input type="tel" id="nohp" required>
+
+        <label>Pilih Sekolah</label>
+        <select id="jenjang" required>
+            <option value="">-- Pilih Sekolah --</option>
+            <option value="SD">SD</option>
+            <option value="SMP">SMP</option>
+            <option value="SMA">SMA</option>
+            <option value="Mahasiswa">Mahasiswa</option>
+        </select>
+
+        <button type="submit">Daftar Sekarang</button>
+    </form>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
